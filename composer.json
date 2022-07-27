@@ -1,7 +1,7 @@
 {
-    "name": "fromthink/sdk",
+    "name": "fromthink/upyun-php-sdk",
     "description": "UPYUN sdk for php",
-    "keywords": ["UPYUN", "sdk"],
+    "keywords": ["UPYUN"],
     "type": "library",
     "minimum-stability": "stable",
     "homepage": "https://github.com/upyun/php-sdk/",
