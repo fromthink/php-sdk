@@ -47,7 +47,7 @@ class Rest
      */
     public function withFile($file)
     {
-        $stream = \GuzzleHttp\Psr7\Utils::streamFor();
+        $stream = Psr7\Utils::streamFor($file);
         $this->file = $stream;
 
         return $this;
